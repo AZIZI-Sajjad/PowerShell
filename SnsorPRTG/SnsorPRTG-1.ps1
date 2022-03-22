@@ -37,5 +37,8 @@ function GetValueFromFreeSpaceXMLString($firstString, $secondString){
 }
 
 #echo "***********************************FUNCTION-2"
-$EXPORT2 = GetValueFromFreeSpaceXMLString -firstString "<value>" -secondString "</value>" # -variExported $EXPORT
-return $EXPORT2
+[float]$EXPORT2 = GetValueFromFreeSpaceXMLString -firstString "<value>" -secondString "</value>" # -variExported $EXPORT
+echo $EXPORT2
+$EXPORT2 = $EXPORT2 -replace "\.","\,"
+$EXPORT2.GetType()
+write-host $EXPORT2

@@ -1,0 +1,74 @@
+<config>
+  <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+    <interface>
+      <GigabitEthernet>
+        <name>GigabitEthernet3</name>
+				<name2>GigabitEthernet-3</name2>
+        <ip>
+          <address>
+            <primary>
+              <address>192.168.100.1</address>
+              <mask>255.255.255.0</mask>
+            </primary>
+          </address>
+        </ip>
+        <mop>
+          <enabled>false</enabled>
+          <sysid>false</sysid>
+        </mop>
+        <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+          <auto>true</auto>
+        </negotiation>
+      </GigabitEthernet>
+    </interface>
+  </native>
+
+	<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+		<interface>
+			<GigabitEthernet>
+				<name>GigabitEthernet4</name>
+				<name2>GigabitEthernet-4</name2>
+				<ip>
+					<address>
+						<primary>
+							<address>192.168.100.1</address>
+							<mask>255.255.255.0</mask>
+						</primary>
+					</address>
+				</ip>
+				<mop>
+					<enabled>false</enabled>
+					<sysid>false</sysid>
+				</mop>
+				<negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+					<auto>true</auto>
+				</negotiation>
+			</GigabitEthernet>
+		</interface>
+	</native>
+
+	<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+		<interface>
+			<GigabitEthernet>
+				<name> GigabitEthernet5</name>
+				<name2>GigabitEthernet-5</name2>
+				<ip>
+					<address>
+						<primary>
+							<address>192.168.100.1</address>
+							<mask>255.255.255.0</mask>
+						</primary>
+					</address>
+				</ip>
+				<mop>
+					<enabled>false</enabled>
+					<sysid>false</sysid>
+				</mop>
+				<negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+					<auto>true</auto>
+				</negotiation>
+			</GigabitEthernet>
+		</interface>
+	</native>
+
+</config>

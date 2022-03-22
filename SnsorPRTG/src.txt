@@ -88,7 +88,7 @@ Translated for channel Available Capacity: units from BytesFile to BytesFile, va
     <channel>Free Space</channel>
     <unit>percent</unit>
     <float>1</float>
-    <value>71756</value>
+    <value>7.756</value>
   </result>
   <result>
     <channel>Free Bytes</channel>
